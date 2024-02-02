@@ -1,6 +1,6 @@
 from moviepy.editor import VideoFileClip
 
-path = 'assets/mp4/159.mp4'
+path = 'assets/mp4/285_긍정.mp4'
 
 def extract_audio_from_video(video_path):
     video_name = video_path.split("/")[2].split(".")[0]

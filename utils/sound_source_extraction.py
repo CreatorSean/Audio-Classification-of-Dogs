@@ -1,7 +1,7 @@
 from moviepy.editor import VideoFileClip
 from glob import glob
 
-video_path = 'assets/mp4/*'  # 저장된 비디오 파일 경로
+video_path = 'assets/mp4_none/*'  # 저장된 비디오 파일 경로
 
 def extract_audio_from_video(video_paths:list):
     for path in video_paths:
