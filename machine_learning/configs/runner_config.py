@@ -1,6 +1,6 @@
 runner_config = {
     # data options
-    "label_type": "multi_class",  # it could be... "binary", "multi_class"
+    "label_type": "binary",  # it could be... "binary", "multi_class"
     # validation options
     "validation_method": "LOSO",  # it could be... "k_fold", "LOSO", "random_split"
     "validation_subject": "1066528",  # if validation_method is "LOSO", this value is subject id
